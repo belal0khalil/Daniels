@@ -1,0 +1,436 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+:root {
+    --main-color :#1c1c1c;
+}
+html {
+    scroll-padding-top: 69px;
+}
+.main-color {
+    color: #343434;
+}
+.second-color {
+    color: #999;
+}
+.third-color {
+    color: #748182;
+}
+.fourth-color {
+    color: #888;
+}
+.fifth-color {
+    background-color: #5B5B5B;
+}
+.bg-footer {
+    background-color: var(--main-color);
+}
+.w-s {
+    word-spacing: 2px;
+}
+.ls {
+    letter-spacing: 1px;
+}
+.lh {
+    line-height: 1.6;
+}
+.lh-2 {
+    line-height: 1.1;
+}
+.ls {
+    letter-spacing: 2px;
+}
+.font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-10 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-50 {
+    font-size: 50px;
+}
+.fs-60 {
+    font-size: 60px;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fw {
+    font-weight: 200px !important;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-900 {
+    font-weight: 900;
+}
+.fw-800 {
+    font-weight: 800;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.mb {
+    margin-bottom: -12px;
+}
+.w-95 {
+    width: 95%;
+}
+.w-80 {
+    width: 80%;
+}
+.w-fit {
+    width: fit-content;
+}
+.w-50 {
+    width: 100px !important;
+}
+.w-90 {
+    width: 90%;
+}
+.h-10 {
+    height: 30px;
+}
+.max {
+    max-width: 537px;
+}
+.max-2 {
+    max-width: 980px;
+}
+
+.max-width {
+    max-width: 380px;
+}
+.color-bar {
+    color: #f7f7f7;
+}
+.btn-color {
+    background-color: var(--main-color);
+}
+.br-color {
+    border-color:var(--main-color) !important ;
+}
+
+li a {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color:black;
+    bottom: 9px;
+    transition: width 400ms ease-in-out;
+}
+.navbar-toggler:focus  {
+    box-shadow: none !important;
+}
+.nav-item:hover .nav-link::before {
+    width: 75%;
+}
+.nav-item .nav-link.active::before {
+    width: 75%;
+}
+.Home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url(../imgs/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Home h1::after{
+    content: ' |';
+    margin-left: 2px;
+    animation: typing 6s infinite;
+}
+@keyframes typing {
+    0%{content: ' L|';}
+    1.5%{content: ' La|';}
+    3%{content: ' Lar|';}
+    4.5%{content: ' Larr|';}
+    6%{content: ' Larry|';}
+    7.5%{content: ' Larry |';}
+    9%{content: ' Larry D|';}
+    10.5%{content: ' Larry Da|';}
+    12%{content: ' Larry Dan|';}
+    13.5%{content: ' Larry Dani|';}
+    15%{content: ' Larry Danie|';}
+    16.5%{content: ' Larry Daniel|';}
+    18%{content: ' Larry Daniels|';}
+    19.5%{content: ' Larry Daniel|';}
+    21%{content: ' Larry Danie|';}
+    22.5%{content: ' Larry Dani|';}
+    24%{content: ' Larry Dan|';}
+    25.5%{content: ' Larry Da|';}
+    27%{content: ' Larry D|';}
+    28.5%{content: ' Larry |';}
+    30%{content: ' Larry|';}
+    31.5%{content: ' Larr|';}
+    33%{content: ' Lar|';}
+    34.5%{content: ' La|';}
+    35.5%{content: ' L|';}
+    37%{content: ' |';}
+    38.5%{content: ' D|';}
+    40%{content: ' De|';}
+    41.5%{content: ' Dev|';}
+    43%{content: ' Deve|';}
+    44.5%{content: ' Devel|';}
+    46%{content: ' Develo|';}
+    47.5%{content: ' Develop|';}
+    49%{content: ' Develope|';}
+    50.5%{content: ' Developer|';}
+    52%{content: ' Develope|';}
+    53.5%{content: ' Develop|';}
+    55%{content: ' Develo|';}
+    56.5%{content: ' Devel|';}
+    58%{content: ' Deve|';}
+    59.5%{content: ' Dev|';}
+    61%{content: ' De|';}
+    62.5%{content: ' D|';}
+    64%{content: ' |';}
+    65.5%{content: ' D|';}
+    67%{content: ' De|';}
+    68.5%{content: ' Des|';}
+    70%{content: ' Desi|';}
+    71.5%{content: ' Desig|';}
+    73%{content: ' Design|';}
+    74.5%{content: ' Designe|';}
+    76%{content: ' Designer|';}
+    77.5%{content: ' Designer |';}
+    79%{content: ' Designer|';}
+    80.5%{content: ' Designe|';}
+    82%{content: ' Design|';}
+    83.5%{content: ' Desig|';}
+    85%{content: ' Desi|';}
+    86.5%{content: ' Des|';}
+    88%{content: ' De|';}
+    89.5%{content: ' D|';}
+    91%{content: ' |';}
+    92.5%{content: ' |';}
+    94%{content: ' |';}
+    95.5%{content: ' |';}
+    97%{content: ' |';}
+    98.5%{content: ' |';}
+    100%{content: ' |';}
+}
+.social-links ul li a {
+    width: 35px;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+.social-links ul li a i {
+    color: white;
+}
+.btns button:nth-of-type(1) {
+    transition:  background-color 0.4s ease-in-out;
+}
+.btns button:nth-of-type(1):hover {
+    background-color: white;
+    color: var(--main-color);
+ 
+}
+.btns button:nth-of-type(2) {
+    transition:  background-color 0.4s ease-in-out , color 0.4s ease-in-out;
+}
+.btns button:nth-of-type(2):hover {
+    background-color:var(--main-color) ;
+    color: white !important;
+}
+
+/* About */
+.about .Inner::after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -23px;
+    bottom: -30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+} 
+/* services */
+.services , .works , .team {
+    background-color: #f7f7f7;
+}
+ .title h3 {
+    z-index: 4;
+}
+
+.title h3:after {
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+
+.inner i {
+    width: 60px;
+    height: 60px; 
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    transition: background-color 0.5s ease-in-out ;
+}
+.inner:hover i {
+    width: 60px;
+    height: 60px; 
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 50%
+}
+/* portfolio */
+.work-layer {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.top-5 {
+    top: 5px;
+}
+.bottom-5 {
+    bottom: 5px;
+}
+.start-5 {
+    left: 5px;
+}
+.end-5 {
+    right: 5px;
+}
+.inner .work-layer {
+    transition: opacity 0.5s ease-in-out;
+}
+.inner:hover .work-layer {
+    opacity: 1 !important;
+}
+.port-img .icons i {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    transition: background-color 0.5s ease-in-out ,color 0.5s ease-in-out ;
+    
+}
+.port-img .icons i:hover {
+    background-color: white;
+    color: black !important;
+    cursor: pointer;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: white;
+    color: black ;
+}
+.nav-item  .nav-link.filtering.active:before {
+    width: 50% !important;
+    left: 12px;
+}
+ .nav-pills .nav-item .nav-link.active::before {
+    width: 65px;  
+}
+
+.nav-pills .nav-item .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    bottom: 2px;
+    left: 8px;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+}
+/* Works */
+.carousel-indicators [data-bs-target]  {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #869791 !important;
+    position: relative;
+    top: 25px;
+    margin: 5px 7px;
+}
+
+/* Our Team */ 
+.Social-Links i {
+    transition: background-color 0.5s ease-in-out , color 0.5s ease-in-out;
+}
+.Social-Links i:hover {
+  background-color: white !important;
+  color: black !important;
+  cursor: pointer;
+}
+.top-15 {
+    top: 15%;
+}
+.bg-opacity {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.border {
+    border-radius:  0px 0px  5px 5px;
+    margin-top: -1px;
+}
+
+.Inner:hover .img-layer {
+    transform: rotateY(0deg) scale(1, 1) !important;
+    opacity: 1 !important;
+    cursor: pointer;
+}
+
+.Inner .team-img .img-layer {
+    position: absolute;
+    text-align: center;
+    transition: 0.5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+    cursor: pointer;
+
+}
+.Inner .team-img img {
+    transition: all 0.5s ease-in-out;
+}
+.Inner:hover .team-img img {
+    transform: scale(1.2);
+}
+/* contact  */
+.input-color {
+    background-color: #f4f4f4;
+}
+.inner input {
+    outline: none;
+}
+textarea {
+    outline: none;
+}
+.btn {
+    transition: background-color 0.5s ease-in-out , color 0.5s ease-in-out;
+}
+ .btn:hover{
+    background-color: white;
+    outline: none !important;
+    color: var(--main-color) !important;
+} 
+
